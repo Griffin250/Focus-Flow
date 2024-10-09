@@ -1,0 +1,128 @@
+
+
+body {
+  margin: auto;
+justify-content: center;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container{
+  border: 1px solid ;
+  width: 500px;
+  padding:0 40px 60px;
+  border-radius: 6px;
+  background: linear-gradient(To top, rgb(230, 240, 250)40%, rgb(83, 177, 224));
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.header-text{
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.user-profile{
+display: flex;
+justify-content: flex-start;
+margin:0 0 40px;
+}
+.user-icon{
+  width: 40px;
+height: fit-content;
+}
+.greeting{
+  display: flex;
+  justify-content: center;
+  margin: auto 5px;
+}
+.user-name{
+  color: blue;
+  margin: 0 12px ;
+}
+.dates{
+  color: blue;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input{
+  display:flex;
+  margin: auto;
+  justify-content: center;
+}
+.input-area{
+  margin: 0 32px;
+  height: 40px;
+  width: 320px;
+  padding: 0 12px;
+  outline: none;
+  border-radius: 5px;
+  border:0;
+  font-size: 16px;
+}
+.add-btn{
+  width: 80px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  background: rgb(13, 194, 13);
+  border: 0;
+}
+ol.tasks{
+  margin:20px  0;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+li{
+  background: whitesmoke;
+  margin: 5px 0;
+  padding:0 12px ;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.delete-btn{
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  background:rgb(245, 70, 7);
+  border: 0;
+  padding: 6px 12px;
+  margin: 5px 12px;
+  cursor: pointer;
+}
+.move{
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  background:skyblue;
+  border: 0;
+  padding: 6px 12px;
+  margin: 5px 12px;
+}
+
+.text{
+  flex: 1;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  font-style: italic;
+  font-weight: 800;
+  margin-bottom: -12%;
+}
+
